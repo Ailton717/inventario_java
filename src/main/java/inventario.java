@@ -1,5 +1,5 @@
 public class inventario {
-    public static int calcularSubtotal(boolean precio, int cantidad) {
+    public static int calcularSubtotal(int precio, int cantidad) {
         return precio * cantidad;
     }
     public static void main(String[] args) {
